@@ -1,0 +1,3 @@
+# See https://developers.google.com/search/docs/advanced/robots/robots_txt for more details.
+User-agent: *
+Allow: /
