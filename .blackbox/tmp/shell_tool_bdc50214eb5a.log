@@ -26,3 +26,7 @@ warnings
   ]
 }
 
+10:19:09 PM [vite] page reload dev-dist/sw.js
+10:19:09 PM [vite] page reload dev-dist/workbox-7e5eb42b.js
+10:20:56 PM [vite] page reload docs/sw.js
+10:20:56 PM [vite] page reload docs/index.html
