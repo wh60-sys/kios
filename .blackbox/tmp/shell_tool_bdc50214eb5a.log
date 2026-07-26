@@ -1,0 +1,28 @@
+
+> @workspace/kiosk@0.0.0 dev
+> vite --config vite.config.ts --host 0.0.0.0 --host 127.0.0.1 --port 4174
+
+
+  VITE v5.4.21  ready in 782 ms
+
+  ➜  Local:   http://127.0.0.1:4174/kios/
+10:13:19 PM [vite] page reload dev-dist/sw.js
+10:13:19 PM [vite] page reload dev-dist/workbox-7e5eb42b.js
+
+PWA v1.3.0
+mode      generateSW
+precache  1 entries (0.00 KiB)
+files generated
+  dev-dist/sw.js
+  dev-dist/workbox-7e5eb42b.js
+warnings
+  One of the glob patterns doesn't match any files. Please remove or fix the following: {
+  "globDirectory": "/workspaces/kios/dev-dist",
+  "globPattern": "**/*.{js,css,html,ico,png,svg,webmanifest}",
+  "globIgnores": [
+    "**/node_modules/**/*",
+    "sw.js",
+    "workbox-*.js"
+  ]
+}
+
