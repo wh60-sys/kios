@@ -19,6 +19,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const redirectPath = params.get('p');
+
+        if (redirectPath) {
+          history.replaceState(null, '', redirectPath);
+        }
+
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(Boolean);
+        const basePath = segments[0] === 'kios' ? '/kios/' : '/';
+
+        const base = document.createElement('base');
+        base.href = basePath;
+        document.head.appendChild(base);
+      })();
+    </script>
     <script type="module" src="assets/index-hMiMGrI5.js"></script>
     <link rel="stylesheet" href="assets/index-DAKk_CjH.css">
   </head>
