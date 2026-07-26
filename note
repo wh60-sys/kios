@@ -1,0 +1,7 @@
+cat > .env << EOF
+------------------
+Jaga-jaga Masa Depan (Scalability):
+Bayangkan 6 bulan lagi toko kamu makin besar dan bagian Gudang minta: "Mas, pencatatan inventori jangan disatuin sama Google Sheets katalog dong, pisah ke Google Sheets khusus Gudang aja!"
+
+Nah, karena dari awal variabelnya sudah kita pisah di .env, nanti kamu tinggal buat Script/Sheets baru untuk Gudang, lalu cukup ganti nilai VITE_INVENTORY_GAS_URL di .env saja tanpa perlu mengubah atau mengacak-acak kode React sama sekali!
+------------------
