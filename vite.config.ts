@@ -12,7 +12,7 @@ if (Number.isNaN(port) || port <= 0) {
 }
 
 const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'kios';
-const basePath = process.env.BASE_PATH || (process.env.GITHUB_ACTIONS ? `/${repoName}/` : '/');
+const basePath = process.env.BASE_PATH || `/${repoName}/`;
 
 export default defineConfig({
   base: basePath,
